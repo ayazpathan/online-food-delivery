@@ -5,12 +5,24 @@ export const FoodItemContainer = styled.div`
   flex-direction: row;
   height: 200px;
   width: 460px;
+
+  @media (max-width: 500px) {
+    width: 100%;
+    height: 430px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 `;
 
 export const FoodImg = styled.img`
   width: 200px;
   height: 130px;
   border-radius: 10px;
+
+  @media (max-width: 500px) {
+    width: 100%;
+    height: 200px;
+  }
 `;
 
 export const FoodInfoContainer = styled.div`
@@ -21,12 +33,20 @@ export const FoodInfoContainer = styled.div`
   min-height: 150px;
   align-items: flex-start;
   overflow: visible;
+
+  @media (max-width: 500px) {
+    height: 200px;
+  }
 `;
 
 export const Suggestion = styled.span`
   color: #ffa300;
   font-size: 15px;
   font-weight: bold;
+
+  @media (max-width: 500px) {
+    font-size: 20px;
+  }
 `;
 
 export const BoldText = styled.span`
@@ -53,6 +73,10 @@ export const ButtonAndDiscountContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   width: 240px;
+
+  @media (max-width: 500px) {
+    width: 280px;
+  }
 `;
 
 export const BasePrice = styled.span`
@@ -99,6 +123,11 @@ export const UpdateCartButtons = styled.div`
   height: 30px;
   font-size: 25px;
   color: #f64558;
+
+  @media (max-width: 500px) {
+    font-size: 40px;
+    width: 120px;
+  }
 `;
 
 export const Hover = styled.span`

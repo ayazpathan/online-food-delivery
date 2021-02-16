@@ -11,4 +11,8 @@ export const MainWrapperContainer = styled.div`
   font-family: Inter, sans-serif;
   padding-top: 0px;
   padding-bottom: 10%;
+
+  @media (max-width: 500px) {
+    width: 100%;
+  }
 `;

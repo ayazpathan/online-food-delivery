@@ -1,4 +1,4 @@
-import { CheckoutButton, BoldText } from "./checkout.styles";
+import { CheckoutButton, BoldText, CheckoutContainer } from "./checkout.styles";
 import Row from "../../containers/rows/row";
 import { useHistory } from "react-router-dom";
 import PropTypes from "prop-types";
@@ -15,10 +15,10 @@ const Checkout = ({ cartTotal, clearItemFromCart }) => {
   };
 
   return (
-    <Row width="68%">
+    <CheckoutContainer>
       <CheckoutButton onClick={placeOrder}>PLACE ORDER</CheckoutButton>
       <BoldText>GRAND TOTAL: ₹. {cartTotal}</BoldText>
-    </Row>
+    </CheckoutContainer>
   );
 };
 

@@ -29,6 +29,7 @@ const Home = ({ cartItemsCount }) => {
   const renderFoodItems = () => {
     return foodItemsList.map((item) => <FoodItem key={item.id} item={item} />);
   };
+
   return (
     <div>
       {cartItemsCount > 0 ? <CartSummary /> : null}

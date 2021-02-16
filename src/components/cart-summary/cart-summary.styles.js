@@ -14,11 +14,19 @@ export const CartSummaryContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   user-select: none;
+
+  @media (max-width: 500px) {
+    width: 300px;
+    height: 50px;
+  }
 `;
 
 export const BoldText = styled.span`
   color: white;
   font-size: 21px;
+
+  @media (max-width: 500px) {
+  }
 `;
 
 export const Bold = styled.span`

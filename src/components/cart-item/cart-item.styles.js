@@ -10,6 +10,14 @@ export const CartItemContainer = styled.div`
   box-shadow: 0px 0px 1px 0px #888888;
   padding: 15px;
   margin-bottom: 25px;
+
+  @media (max-width: 500px) {
+    width: 280px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    box-shadow: 0px 0px 5px 0px #888888;
+  }
 `;
 
 export const CartImg = styled.img`
@@ -45,6 +53,11 @@ export const UpdateCartButtons = styled.div`
   height: 30px;
   font-size: 25px;
   color: #f64558;
+
+  @media (max-width: 500px) {
+    font-size: 40px;
+    width: 160px;
+  }
 `;
 
 export const Hover = styled.span`

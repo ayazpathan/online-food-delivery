@@ -29,4 +29,10 @@ export const BoldText = styled.span`
   color: #3e4152;
   font-size: 25px;
   font-weight: bold;
+
+  @media (max-width: 500px) {
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
 `;

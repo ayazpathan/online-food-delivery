@@ -10,4 +10,9 @@ export const ColumnContainer = styled.div`
   overflow: hidden;
   padding-top: 50px;
   box-shadow: inset 0px 20px 23px -23px #ccc;
+
+  @media (max-width: 500px) {
+    width: 100%;
+    padding: 15% 0%;
+  }
 `;

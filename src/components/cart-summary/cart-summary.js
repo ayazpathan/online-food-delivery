@@ -20,10 +20,11 @@ const CartSummary = ({ cartItemsCount, cartItemTotal }) => {
   return (
     <CartSummaryContainer>
       <BoldText>
-        <Bold>{cartItemsCount}</Bold> Items Added
+        <Bold>{cartItemsCount}</Bold> <span>Items Added</span>
       </BoldText>
       <BoldText>
-        Total: <Bold>₹. {cartItemTotal}</Bold>
+        <span>Total Amt: </span>
+        <Bold>₹. {cartItemTotal}</Bold>
       </BoldText>
       <Link to="/cart">
         <Hover>
