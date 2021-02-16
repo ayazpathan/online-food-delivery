@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/online-food-delivery/static/css/main.b2a36d74.chunk.css",
-    "main.js": "/online-food-delivery/static/js/main.c489a267.chunk.js",
-    "main.js.map": "/online-food-delivery/static/js/main.c489a267.chunk.js.map",
+    "main.js": "/online-food-delivery/static/js/main.1efdc03b.chunk.js",
+    "main.js.map": "/online-food-delivery/static/js/main.1efdc03b.chunk.js.map",
     "runtime-main.js": "/online-food-delivery/static/js/runtime-main.36d9eda1.js",
     "runtime-main.js.map": "/online-food-delivery/static/js/runtime-main.36d9eda1.js.map",
     "static/js/2.aeb6c172.chunk.js": "/online-food-delivery/static/js/2.aeb6c172.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.36d9eda1.js",
     "static/js/2.aeb6c172.chunk.js",
     "static/css/main.b2a36d74.chunk.css",
-    "static/js/main.c489a267.chunk.js"
+    "static/js/main.1efdc03b.chunk.js"
   ]
 }
