@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.b2a36d74.chunk.css",
-    "main.js": "/my-app/static/js/main.b0ee54ba.chunk.js",
-    "main.js.map": "/my-app/static/js/main.b0ee54ba.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.8f950b54.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.8f950b54.js.map",
-    "static/js/2.91d9cfb1.chunk.js": "/my-app/static/js/2.91d9cfb1.chunk.js",
-    "static/js/2.91d9cfb1.chunk.js.map": "/my-app/static/js/2.91d9cfb1.chunk.js.map",
-    "static/js/3.0a286a9d.chunk.js": "/my-app/static/js/3.0a286a9d.chunk.js",
-    "static/js/3.0a286a9d.chunk.js.map": "/my-app/static/js/3.0a286a9d.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "static/css/main.b2a36d74.chunk.css.map": "/my-app/static/css/main.b2a36d74.chunk.css.map",
-    "static/js/2.91d9cfb1.chunk.js.LICENSE.txt": "/my-app/static/js/2.91d9cfb1.chunk.js.LICENSE.txt"
+    "main.css": "/online-food-delivery/home/static/css/main.b2a36d74.chunk.css",
+    "main.js": "/online-food-delivery/home/static/js/main.b0ee54ba.chunk.js",
+    "main.js.map": "/online-food-delivery/home/static/js/main.b0ee54ba.chunk.js.map",
+    "runtime-main.js": "/online-food-delivery/home/static/js/runtime-main.cefbf861.js",
+    "runtime-main.js.map": "/online-food-delivery/home/static/js/runtime-main.cefbf861.js.map",
+    "static/js/2.fdc181fc.chunk.js": "/online-food-delivery/home/static/js/2.fdc181fc.chunk.js",
+    "static/js/2.fdc181fc.chunk.js.map": "/online-food-delivery/home/static/js/2.fdc181fc.chunk.js.map",
+    "static/js/3.0a286a9d.chunk.js": "/online-food-delivery/home/static/js/3.0a286a9d.chunk.js",
+    "static/js/3.0a286a9d.chunk.js.map": "/online-food-delivery/home/static/js/3.0a286a9d.chunk.js.map",
+    "index.html": "/online-food-delivery/home/index.html",
+    "static/css/main.b2a36d74.chunk.css.map": "/online-food-delivery/home/static/css/main.b2a36d74.chunk.css.map",
+    "static/js/2.fdc181fc.chunk.js.LICENSE.txt": "/online-food-delivery/home/static/js/2.fdc181fc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f950b54.js",
-    "static/js/2.91d9cfb1.chunk.js",
+    "static/js/runtime-main.cefbf861.js",
+    "static/js/2.fdc181fc.chunk.js",
     "static/css/main.b2a36d74.chunk.css",
     "static/js/main.b0ee54ba.chunk.js"
   ]
